@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+}
+
+.flex-container,
+.header-container,
+main,
+.main-container,
+.div-main,
+h1,
+.div,
+.footer-container {
+    display: flex;
+}
+
+.flex-container,
+.div-main {
+    flex-direction: column;
+}
+
+.flex-container,
+.div-main,
+.div,
+.footer-container {
+    justify-content: space-between;
+}
+
+.header-container,
+h1 {
+    justify-content: center;
+}
+
+.flex-container {
+    min-height: 100vh;
+}
+
+
+.header-container {
+    padding: 25px;
+    background-color: rgb(208, 206, 206);
+}
+
+main {
+    flex: 1;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.div-main {
+    width: 70%;
+}
+
+.aside {
+    width: 30%;
+    background-color: rgb(202, 202, 72);
+}
+
+.div-main {
+    background-color: antiquewhite;
+
+}
+
+
+.footer-container {
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(208, 206, 206)
+}
+
+.flex-container p {
+    width: 20%;
+}
+
+.div {
+    width: 100%;
+}
+
+.div p {
+    width: 40%;
+}
+
+h1 {
+    padding: 20px;
+    margin: 20px;
+}
+
+.div {
+    margin: 20px;
+}
+
+.div p {
+    flex-basis: 400px;
+    padding: 20px;
+    background-color: rgb(236, 182, 117);
+}
+
+.div-2 {
+    margin: 20px;
+}
+
+.div-2 p {
+    padding: 20px;
+    background-color: rgb(236, 182, 117);
+}
+
+
+.footer-container p {
+    padding: 15px;
+    background-color: white;
+}
+
+p,
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+}
